@@ -214,4 +214,49 @@ button {
     font-size: 16px;
     cursor: pointer;
     font-weight: bold;
+} 
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        padding: 15px 20px;
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .nav-links a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .hero-center h1 {
+        font-size: 32px;
+    }
+
+    #typing {
+        font-size: 22px;
+    }
+
+    .hero-center p {
+        font-size: 15px;
+        padding: 0 15px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 80%;
+        text-align: center;
+    }
+
+    .grid-section .box {
+        width: 100%;
+    }
 }
